@@ -1,55 +1,25 @@
-# Prerequisites
-*.d
+# PlatformIO build outputs & libraries
+.pio/
+.pioenvs/
+.piolibdeps/
+.clangd/
 
-# Object files
-*.o
-*.ko
-*.obj
+# Arduino IDE compilation outputs
+build/
 *.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
 *.hex
+*.bin
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# VS Code settings (kecuali rekomendasi ekstensi)
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# CLion / JetBrains IDEs
+.idea/
+cmake-build-*/
 
-# debug information files
-*.dwo
+# Operating System temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
