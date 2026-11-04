@@ -96,6 +96,7 @@ esp32-adc-dac-lab/
 ├── web_pages.h              # Static HTML5, CSS, and JS web application (PROGMEM)
 ├── web_server_app.h         # Web Server API routing interface
 └── web_server_app.cpp       # REST Endpoint handlers and JSON serialization
+└── image                    # For documentation 
 
 ```
 
